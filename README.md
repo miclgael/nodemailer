@@ -8,7 +8,7 @@ An example setup for a workflow I wanted.
 
 ## Installation 
 
-- `git clone ...` 
+- `git clone https://github.com/miclgael/nodemailer-example.git` 
 - `cd update-github-repos && npm install`
 - `mv .env.example .env` - rename ENV and enter your credentials in there 
 
