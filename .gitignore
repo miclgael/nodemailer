@@ -1,0 +1,10 @@
+node_modules
+.env
+
+client-cert.pem
+client-key.pem
+server-ca.pem
+reports/cron.log
+reports/._cron.log
+._index.js
+._*
