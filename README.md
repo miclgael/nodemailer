@@ -9,7 +9,7 @@ An example setup for a workflow I wanted.
 ## Installation 
 
 - `git clone https://github.com/miclgael/nodemailer-example.git` 
-- `cd update-github-repos && npm install`
+- `cd nodemailer-example && npm install`
 - `mv .env.example .env` - rename ENV and enter your credentials in there 
 
 ## Set up CRON
