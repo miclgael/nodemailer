@@ -8,6 +8,7 @@
   },
   "author": "Michael Gale",
   "license": "MIT",
+  "repository": "https://github.com/miclgael/pi-nodemailer.git",
   "dependencies": {
     "axios": "^0.19.0",
     "dotenv": "^8.2.0",
