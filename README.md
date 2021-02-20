@@ -30,7 +30,7 @@ docker run --name $(docker ps -qf "name=nodemailer")
 
 [Adjust timings as necessary](https://crontab.guru).
 
-I'm using "At 20:00 on Saturday" which is `30 20 * * 6`
+I'm using "At 20:30 on Saturday" which is `30 20 * * 6`
 
 Final CRON command as follows:
 
