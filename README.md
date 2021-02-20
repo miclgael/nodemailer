@@ -2,9 +2,9 @@
 
 An example setup for a workflow I wanted.
 
-- Use `axios` to make a HTTP request to an endpoint (it just needs to report back with a JSON "success" message to work.
+- Use `node-fetch` to make a HTTP request to an endpoint (it just needs to report back with a JSON "success" message to work.
 - Use `nodemailer` to send an email, with a message telling me the job succeeded or failed.
-- Run the script weekly via `crontab` on my Raspberry Pi 3B+, which logs the most recent result to `reports/cron.log`
+- Run the script weekly via `crontab`, and log the most recent report to `reports/cron.log`
 
 ## Installation 
 

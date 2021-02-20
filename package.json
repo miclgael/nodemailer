@@ -10,8 +10,12 @@
   "license": "MIT",
   "repository": "https://github.com/miclgael/pi-nodemailer.git",
   "dependencies": {
-    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
     "nodemailer": "^6.3.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^7.20.0"
   }
 }
