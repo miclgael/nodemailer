@@ -39,3 +39,7 @@ Final CRON command as follows:
 ## Set up SMTP
 
 You'll need to set up SMTP, and you'll need some kind of mailing host.
+
+## Make it your own
+
+Next, you could implement system notifications, instead of email notifications! Check out [This article](https://davidwalsh.name/system-notifications-node) by David Walsh.
