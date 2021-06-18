@@ -1,19 +1,19 @@
-import { config } from 'dotenv';
+import { config } from "dotenv"
 
-config();
+config()
 
-const auth = {
-  name: process.env.AUTH_NAME,
-  token: process.env.AUTH_TOKEN,
-}
+// const auth = {
+//   name: process.env.AUTH_NAME,
+//   token: process.env.AUTH_TOKEN,
+// }
 
-const buffered = Buffer.from(`${auth.name}:${auth.token}`).toString('base64')
+// const buffered = Buffer.from(`${auth.name}:${auth.token}`).toString('base64')
 
 const options = {
-  method: 'GET',
-  headers: {
-    Authorization: `Basic ${buffered}`,
-  }
+  method: "GET",
+  // headers: {
+  //   Authorization: `Basic ${buffered}`,
+  // }
 }
 
 export default options
